@@ -1,0 +1,10 @@
+data:
+  input_path: data/raw/beneficiaries.csv
+  output_path: data/processed/clean_data.csv
+
+database:
+  db_path: database/data.db
+  table_name: beneficiaries
+
+logging:
+  log_file: logs/pipeline.log
